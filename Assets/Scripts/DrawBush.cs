@@ -37,8 +37,6 @@ public class DrawBush : MonoBehaviour
                 {'F', "F[-F][+F]"}
         };
         Generate();    
-        
-   
     }
     
     public void Generate()
@@ -107,9 +105,8 @@ public class DrawBush : MonoBehaviour
                 default:
                 throw new InvalidOperationException("broken");
             
+            }
         }
-        
-            }
-            }
-            }        
+    }
+}        
 
