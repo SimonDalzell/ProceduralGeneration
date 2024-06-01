@@ -28,20 +28,10 @@ public class MapGenerator : MonoBehaviour
 
    
 
- public void adjustSeed(int newSeed)
+    public void adjustSeed(int newSeed)
     {
         seed = newSeed;
     }
-
-
-
-    void Start()
-    {
-             
-
-    }
-
-   
      
     public void GenerateMap()
     {
