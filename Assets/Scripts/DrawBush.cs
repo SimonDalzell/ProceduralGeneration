@@ -10,18 +10,14 @@ public class DrawBush : MonoBehaviour
     [SerializeField] private int iterations;
     [SerializeField] private GameObject Branch;
     [SerializeField] private GameObject Tree;
-
     [SerializeField] private float length = 5f;
 
 
-    public Transform InstantiateMe;
-
     private Stack<TransformInfo> newStack;
-
     private Dictionary<char, string> rules;
     private const string axiom = "X";
     private string currentString = string.Empty;   
-
+    public Transform InstantiateMe;
 
     void Start()
     {
